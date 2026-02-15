@@ -19,7 +19,7 @@ const Footer = () =>
         href="https://linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-primary-foreground/70 hover:text-primary-foreground">
+        className="text-[#1F2937]/70 hover:text-[#1F2937]">
 
           LinkedIn
         </a>
