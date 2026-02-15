@@ -1,9 +1,9 @@
 import SectionDivider from "./SectionDivider";
 
 const essays = [
-  "Why Centralized Control Is Winning the AI Era",
-  "The Quiet Landgrab for Expertise",
-  "What Fortune 500s Must Destroy to Survive",
+  { title: "The Only Enterprise Structure That Dominates the AI Era", url: "https://open.substack.com/pub/transformationbrief/p/the-only-enterprise-structure-that?r=706g1d&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" },
+  { title: "The Quiet Landgrab for Expertise", url: "" },
+  { title: "What Fortune 500s Must Destroy to Survive", url: "" },
 ];
 
 const TheBrief = () => (
@@ -22,7 +22,15 @@ const TheBrief = () => (
         <p>Recent essays:</p>
         <ul className="space-y-2 pl-5 list-disc marker:text-accent">
           {essays.map((e, i) => (
-            <li key={i}>{e}</li>
+            <li key={i}>
+              {e.url ? (
+                <a href={e.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
+                  {e.title}
+                </a>
+              ) : (
+                e.title
+              )}
+            </li>
           ))}
         </ul>
 
