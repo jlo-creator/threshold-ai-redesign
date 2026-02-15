@@ -8,7 +8,7 @@ const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100, "Name must be under 100 characters"),
   email: z.string().trim().email("Please enter a valid email address").max(255),
   company: z.string().trim().max(100, "Company name must be under 100 characters").optional().or(z.literal("")),
-  message: z.string().trim().min(1, "Message is required").max(2000, "Message must be under 2000 characters"),
+  message: z.string().trim().min(1, "Message is required").max(2000, "Message must be under 2000 characters")
 });
 
 type ContactFormData = z.infer<typeof contactSchema>;
@@ -19,9 +19,9 @@ const Contact = () => {
     register,
     handleSubmit,
     reset,
-    formState: { errors, isSubmitting },
+    formState: { errors, isSubmitting }
   } = useForm<ContactFormData>({
-    resolver: zodResolver(contactSchema),
+    resolver: zodResolver(contactSchema)
   });
 
   const onSubmit = (data: ContactFormData) => {
@@ -35,12 +35,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-muted py-20 md:py-[100px]">
+    <section id="contact" className="py-20 md:py-[100px] bg-primary">
       <div className="max-w-content mx-auto px-6">
-        <h2 className="font-display text-foreground text-3xl md:text-[34px] font-semibold">Contact</h2>
+        <h2 className="font-display text-3xl md:text-[34px] font-semibold text-muted">Contact</h2>
         <SectionDivider />
 
-        <p className="text-foreground/90 text-[17px] md:text-lg leading-[1.7] font-sans mb-10">
+        <p className="text-[17px] md:text-lg leading-[1.7] font-sans mb-10 text-muted">
           If you're redesigning your organization for what AI makes possible and understand the opportunity is larger than incremental adoption, reach out with a brief note describing where you are and where you need to be.
         </p>
 
@@ -54,8 +54,8 @@ const Contact = () => {
               type="text"
               {...register("name")}
               className="w-full border border-border bg-card text-foreground px-4 py-2.5 text-sm font-sans rounded-sm focus:outline-none focus:ring-1 focus:ring-ring"
-              placeholder="Your name"
-            />
+              placeholder="Your name" />
+
             {errors.name && <p className="text-destructive text-sm mt-1">{errors.name.message}</p>}
           </div>
 
@@ -68,8 +68,8 @@ const Contact = () => {
               type="email"
               {...register("email")}
               className="w-full border border-border bg-card text-foreground px-4 py-2.5 text-sm font-sans rounded-sm focus:outline-none focus:ring-1 focus:ring-ring"
-              placeholder="you@company.com"
-            />
+              placeholder="you@company.com" />
+
             {errors.email && <p className="text-destructive text-sm mt-1">{errors.email.message}</p>}
           </div>
 
@@ -82,8 +82,8 @@ const Contact = () => {
               type="text"
               {...register("company")}
               className="w-full border border-border bg-card text-foreground px-4 py-2.5 text-sm font-sans rounded-sm focus:outline-none focus:ring-1 focus:ring-ring"
-              placeholder="Your company"
-            />
+              placeholder="Your company" />
+
             {errors.company && <p className="text-destructive text-sm mt-1">{errors.company.message}</p>}
           </div>
 
@@ -96,22 +96,22 @@ const Contact = () => {
               rows={5}
               {...register("message")}
               className="w-full border border-border bg-card text-foreground px-4 py-2.5 text-sm font-sans rounded-sm focus:outline-none focus:ring-1 focus:ring-ring resize-vertical"
-              placeholder="Describe where you are and where you need to be"
-            />
+              placeholder="Describe where you are and where you need to be" />
+
             {errors.message && <p className="text-destructive text-sm mt-1">{errors.message.message}</p>}
           </div>
 
           <button
             type="submit"
             disabled={isSubmitting}
-            className="bg-primary text-primary-foreground border border-accent px-6 py-3 text-sm font-sans font-medium hover:border-accent/80 disabled:opacity-50"
-          >
+            className="bg-primary text-primary-foreground border border-accent px-6 py-3 text-sm font-sans font-medium hover:border-accent/80 disabled:opacity-50">
+
             Request a Conversation
           </button>
         </form>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Contact;
