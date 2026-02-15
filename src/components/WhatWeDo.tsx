@@ -14,7 +14,7 @@ const WhatWeDo = () => (
           AI is not a software upgrade. It changes who decides what, how fast decisions get made, and how value appears in your P&amp;L. Organizations are no longer constrained by execution capacity. The question is whether your operating model has been redesigned to capture what's now possible.
         </p>
         <p>
-          Most Fortune 500 companies have labeled AI a strategic priority. They're investing heavily, running pilots, and increasingly disclosing AI as a material risk. Yet the majority prioritize AI based on ROI while seeing value only in cost reduction, not growth or competitive advantage.
+          Most large enterprises have labeled AI a strategic priority. They're investing heavily, running pilots, and increasingly disclosing AI as a material risk. Yet the majority prioritize AI based on ROI while seeing value only in cost reduction, not growth or competitive advantage.
         </p>
         <p className="font-medium">The constraint isn't model capability. It's operating design.</p>
 
