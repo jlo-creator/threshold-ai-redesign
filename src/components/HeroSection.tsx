@@ -8,7 +8,7 @@ const HeroSection = () => (
         Redesigning organizations for AI-driven operating leverage.
       </h2>
       <p className="text-primary-foreground/70 text-base md:text-lg leading-relaxed max-w-content mx-auto font-sans">
-        We work with CEOs and CFOs of Fortune 500 enterprises who have invested heavily in AI but are not yet seeing structural advantage in margin, decision speed, or risk posture.
+        We work with CEOs and CFOs of Fortune 500 and other large enterprises that have invested heavily in AI but are not yet seeing structural advantage in margin, decision speed, or risk posture.
       </p>
     </div>
   </section>
