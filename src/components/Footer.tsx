@@ -14,7 +14,7 @@ const Footer = () =>
         contact@thresholdgroup.ai
 
       </a>
-        <span className="text-primary-foreground/30">|</span>
+        <span className="text-[#C5A74E]/30">|</span>
         <a
         href="https://linkedin.com"
         target="_blank"
