@@ -1,7 +1,7 @@
 const Footer = () =>
 <footer className="bg-[#f8f6f3] py-10">
     <div className="max-w-content mx-auto px-6 text-center space-y-3">
-      <p className="font-display text-primary-foreground text-lg font-semibold">
+      <p className="font-display text-[#1F2937] text-lg font-semibold">
         Threshold Group
       </p>
       
