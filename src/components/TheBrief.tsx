@@ -40,7 +40,7 @@ const TheBrief = () => (
 
         <div className="pt-4">
           <a
-            href="https://thresholdgroup.substack.com"
+            href="https://substack.com/@transformationbrief"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-primary-foreground border border-accent px-6 py-3 text-sm font-sans font-medium hover:border-accent/80"
