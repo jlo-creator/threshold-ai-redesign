@@ -20,9 +20,9 @@ const engagements = [
 ];
 
 const Engagements = () => (
-  <section id="engagements" className="bg-muted py-20 md:py-[100px]">
+  <section id="engagements" className="bg-primary py-20 md:py-[100px]">
     <div className="max-w-content mx-auto px-6">
-      <h2 className="font-display text-foreground text-3xl md:text-[34px] font-semibold">
+      <h2 className="font-display text-primary-foreground text-3xl md:text-[34px] font-semibold">
         Representative Engagements
       </h2>
       <SectionDivider />
@@ -30,17 +30,17 @@ const Engagements = () => (
       <div className="space-y-10">
         {engagements.map((e, i) => (
           <div key={i}>
-            <h3 className="font-display text-foreground text-xl md:text-[22px] font-semibold mb-3">
+            <h3 className="font-display text-primary-foreground text-xl md:text-[22px] font-semibold mb-3">
               {e.title}
             </h3>
-            <p className="text-foreground/90 text-[17px] md:text-lg leading-[1.7] font-sans">
+            <p className="text-primary-foreground/80 text-[17px] md:text-lg leading-[1.7] font-sans">
               {e.body}
             </p>
           </div>
         ))}
       </div>
 
-      <p className="mt-10 text-foreground/80 text-[17px] md:text-lg leading-[1.7] font-sans italic">
+      <p className="mt-10 text-primary-foreground/70 text-[17px] md:text-lg leading-[1.7] font-sans italic">
         Each engagement is tailored to the specific inflection point the organization faces. Work typically spans 6–9 months, with diagnostic assessments available for clients ready to move quickly.
       </p>
     </div>
