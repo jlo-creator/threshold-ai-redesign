@@ -2,7 +2,7 @@ import SectionDivider from "./SectionDivider";
 
 const essays = [
   { title: "The Only Enterprise Structure That Dominates the AI Era", url: "https://open.substack.com/pub/transformationbrief/p/the-only-enterprise-structure-that?r=706g1d&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true" },
-  { title: "The Quiet Landgrab for Expertise", url: "" },
+  { title: "The Quiet Landgrab for Expertise", url: "https://transformationbrief.substack.com/p/the-quiet-landgrab-for-expertise?r=706g1d" },
   { title: "What Fortune 500s Must Destroy to Survive", url: "" },
 ];
 
