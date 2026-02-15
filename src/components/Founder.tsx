@@ -2,9 +2,9 @@ import SectionDivider from "./SectionDivider";
 import founderPhoto from "@/assets/joanne-lo-headshot.png";
 
 const Founder = () => (
-  <section id="founder" className="bg-muted py-20 md:py-[100px]">
+  <section id="founder" className="bg-primary py-20 md:py-[100px]">
     <div className="max-w-content mx-auto px-6">
-      <h2 className="font-display text-foreground text-3xl md:text-[34px] font-semibold">
+      <h2 className="font-display text-primary-foreground text-3xl md:text-[34px] font-semibold">
         About the Founder
       </h2>
       <SectionDivider />
@@ -18,9 +18,9 @@ const Founder = () => (
         />
       </div>
 
-      <div className="space-y-6 text-foreground/90 text-[17px] md:text-lg leading-[1.7] font-sans">
+      <div className="space-y-6 text-primary-foreground/80 text-[17px] md:text-lg leading-[1.7] font-sans">
         <p>
-          <strong className="text-foreground">Dr. Joanne Lo</strong> founded Threshold Group after serving as the first Command Technology Officer of U.S. Special Operations Command Pacific, an SES/Admiral-equivalent position responsible for modernizing technology across the Indo-Pacific theater.
+          <strong className="text-primary-foreground">Dr. Joanne Lo</strong> founded Threshold Group after serving as the first Command Technology Officer of U.S. Special Operations Command Pacific, an SES/Admiral-equivalent position responsible for modernizing technology across the Indo-Pacific theater.
         </p>
         <p>
           She was recruited into that role as a Highly Qualified Expert, not as a traditional government technologist, but as someone who had spent a decade building and deploying large-scale AI systems across education, creative platforms, autonomous systems, and human-AI collaboration.
@@ -34,7 +34,7 @@ const Founder = () => (
         <p>
           That experience crystallized a realization: AI is not a software upgrade. It changes who decides what, how fast decisions get made, how value appears in financial statements, and where accountability sits when execution moves faster than traditional oversight structures.
         </p>
-        <p className="font-medium">Most organizations are still approaching AI as adoption. The real challenge is redesign.</p>
+        <p className="font-medium text-primary-foreground">Most organizations are still approaching AI as adoption. The real challenge is redesign.</p>
         <p>
           Dr. Lo now works with executive teams to move beyond incremental AI use toward structural reinvention, aligning operating models, authority systems, and financial architecture with what AI makes possible.
         </p>
