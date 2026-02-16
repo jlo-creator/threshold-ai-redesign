@@ -33,7 +33,7 @@ const WhatWeDo = () => (
         <p>
           Decision authority was built for slower cycles. Accountability structures lag execution speed. Incentives reward incrementalism, not reinvention. Finance cannot see AI's full economic leverage. Leadership teams are aligned rhetorically, not structurally.
         </p>
-        <p className="font-display text-xl md:text-[22px] leading-[1.4] text-foreground font-bold">
+        <p className="font-display text-xl md:text-[22px] leading-[1.4] text-foreground font-bold text-center">
           AI doesn't fail because it lacks intelligence.<br />
           It fails because the organization wasn't redesigned for it.
         </p>
