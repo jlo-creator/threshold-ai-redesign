@@ -29,7 +29,7 @@ const WhatWeDo = () => (
         </ul>
 
         <p>
-          Our work helps leadership teams translate AI into durable improvements in margin, decision speed, and risk posture within 6–9 months.
+          Within 6–9 months, leadership teams see measurable improvement in margin, decision velocity, and risk posture.
         </p>
         <p>
           Decision authority was built for slower cycles. Incentives reward incrementalism. Finance cannot see AI's full economic leverage. Leadership teams are aligned rhetorically, not structurally.
