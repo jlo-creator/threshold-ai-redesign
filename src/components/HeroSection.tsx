@@ -5,7 +5,7 @@ const HeroSection = () => (
         Threshold Group
       </h1>
       <h2 className="font-display text-accent text-xl sm:text-2xl md:text-[34px] font-normal leading-[1.2] max-w-[640px] mx-auto mb-10">
-        AI adoption is table stakes.<br />
+        AI adoption is no longer a differentiator.<br />
         Structural redesign creates the advantage.
       </h2>
       <p className="text-primary-foreground/70 text-base md:text-lg leading-relaxed max-w-[880px] mx-auto font-sans">
