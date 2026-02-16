@@ -32,7 +32,7 @@ const WhatWeDo = () => (
           Our work helps leadership teams translate AI into durable improvements in margin, decision speed, and risk posture within 6–9 months.
         </p>
         <p>
-          Decision authority was built for slower cycles. Accountability structures lag execution speed. Incentives reward incrementalism, not reinvention. Finance cannot see AI's full economic leverage. Leadership teams are aligned rhetorically, not structurally.
+          Decision authority was built for slower cycles. Incentives reward incrementalism. Finance cannot see AI's full economic leverage. Leadership teams are aligned rhetorically, not structurally.
         </p>
         <p className="font-display text-xl md:text-[22px] leading-[1.4] text-foreground font-bold text-center">
           AI doesn't fail because it lacks intelligence.<br />
