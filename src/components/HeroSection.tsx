@@ -6,7 +6,7 @@ const HeroSection = () => (
       </h1>
       <h2 className="font-display text-accent text-xl sm:text-2xl md:text-[34px] font-normal leading-[4.0] max-w-[780px] mx-auto mb-10">
         AI adoption is no longer a differentiator.<br />
-        Structural redesign creates the advantage.
+        Structural redesign creates durable advantage.
       </h2>
       <p className="text-primary-foreground/70 text-base md:text-lg leading-relaxed max-w-[880px] mx-auto font-sans">
         We work with CEOs and CFOs of Fortune 500 and other large enterprises that have invested heavily in AI but are not yet realizing structural advantage in margin, decision speed, or risk posture.
