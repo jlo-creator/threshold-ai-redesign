@@ -36,7 +36,7 @@ const WhatWeDo = () => (
         </p>
         <p className="font-display text-xl md:text-[22px] leading-[1.4] text-foreground font-bold text-center">
           AI doesn't fail because it lacks intelligence.<br />
-          It fails because the organization wasn't redesigned for it.
+          It fails because the organization was never redesigned for it.
         </p>
         <p>
           Threshold Group works with CEOs and CFOs to close that gap, turning AI from experimentation and cost savings into operating leverage, growth, and structural advantage.
