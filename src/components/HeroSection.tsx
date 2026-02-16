@@ -4,7 +4,7 @@ const HeroSection = () => (
       <h1 className="font-display text-primary-foreground text-4xl sm:text-5xl md:text-[60px] font-semibold leading-[1.1] tracking-[-0.5px] mb-6">
         Threshold Group
       </h1>
-      <h2 className="font-display text-accent text-xl sm:text-2xl md:text-[34px] font-normal leading-[3.0] max-w-[780px] mx-auto mb-10">
+      <h2 className="font-display text-accent text-xl sm:text-2xl md:text-[34px] font-normal leading-[4.0] max-w-[780px] mx-auto mb-10">
         AI adoption is no longer a differentiator.<br />
         Structural redesign creates the advantage.
       </h2>
