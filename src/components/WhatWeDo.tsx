@@ -17,7 +17,7 @@ const WhatWeDo = () => (
           Most large enterprises have labeled AI a strategic priority. They're investing heavily, running pilots, and increasingly disclosing AI as a material risk. Yet the majority prioritize AI based on ROI while seeing value only in cost reduction, not growth or competitive advantage.
         </p>
         <p className="font-medium">The constraint isn't model capability. It's operating design.</p>
-        <p>Most leadership teams are still organized for a world where execution was scarce.</p>
+        <p className="font-medium">Most leadership teams are still organized for a world where execution was scarce.</p>
 
         <p>You may be experiencing:</p>
         <ul className="space-y-2 pl-5 list-disc marker:text-accent">
