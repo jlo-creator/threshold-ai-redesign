@@ -39,7 +39,7 @@ const WhatWeDo = () => (
           It fails because the organization was never redesigned for it.
         </p>
         <p>
-          Threshold Group works with CEOs and CFOs to close that gap, turning AI from experimentation and cost savings into operating leverage, growth, and structural advantage.
+          We help leadership teams close that gap, transforming AI from experimentation and cost savings into operating leverage, growth, and structural advantage.
         </p>
         <p>
           We don't start with tools. We start with authority, incentives, capital allocation, and accountability, then align technology to that ambition.
