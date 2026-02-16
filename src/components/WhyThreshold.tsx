@@ -19,7 +19,7 @@ const WhyThreshold = () => (
           We have operated in environments where AI-enabled decisions were audited, regulated, and in some cases life-critical. That discipline translates directly to board-level AI strategy, risk governance, and regulatory disclosure requirements. We help you articulate AI's impact in a way that withstands investor, auditor, and regulator scrutiny.
         </p>
         <p>
-          Most advisory firms understand AI conceptually. Most technologists understand it technically. Few have redesigned systems where authority, risk, and execution intersect at scale, where decisions move at machine speed and accountability still rests with humans.
+          Most advisory firms understand AI at a conceptual level. Most technologists understand it at a technical level. Few have redesigned institutions where authority, risk, and execution intersect at scale, where decisions move at machine speed and accountability still rests with humans.
         </p>
         <p>
           We draw from a deep network of experts in organizational transformation and assemble engagement teams based on client needs, bringing the specific combination of operational, technical, and strategic expertise required for each transformation.
