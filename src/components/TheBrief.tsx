@@ -16,7 +16,7 @@ const TheBrief = () => (
 
       <div className="space-y-6 text-foreground/90 text-[17px] md:text-lg leading-[1.7] font-sans">
         <p>
-          Threshold Group publishes <em>The Transformation Brief</em>, exploring the structural shifts AI is creating across power, authority, and operating design and why most transformation efforts fall short. Practical guidance on leading AI-era restructuring without losing control of risk, culture, or accountability.
+          Threshold Group publishes <em>The Transformation Brief</em>, exploring the structural shifts AI is creating across power, authority, and operating design, and why most transformation efforts fail. It offers practical guidance for leading AI-era restructuring without losing control of risk, culture, or accountability.
         </p>
 
         <p>Recent essays:</p>
