@@ -10,7 +10,7 @@ const WhyThreshold = () => (
 
       <div className="space-y-6 text-foreground/90 text-[17px] md:text-lg leading-[1.7] font-sans">
         <p>
-          Threshold Group brings together leaders who have directed technology transformation in highly volatile, rapidly changing operational environments—both in contested theaters and global enterprises.
+          Threshold Group brings together leaders who have directed technology transformation in highly volatile and rapidly changing operational environments, both in contested theaters and global enterprises.
         </p>
         <p>
           Our team has led large-scale modernization efforts where speed and sound judgment were not competing priorities but simultaneous requirements. We have built and deployed AI systems in national laboratories, defense operations, Fortune 500 enterprises, and frontier AI environments. We understand technology at the model layer, the system layer, and the executive accountability layer.
@@ -19,7 +19,7 @@ const WhyThreshold = () => (
           We have operated in environments where AI-enabled decisions were audited, regulated, and in some cases life-critical. That discipline translates directly to board-level AI strategy, risk governance, and regulatory disclosure requirements. We help you articulate AI's impact in a way that withstands investor, auditor, and regulator scrutiny.
         </p>
         <p>
-          Most advisory firms understand AI conceptually. Most technologists understand it technically. Few have redesigned systems where authority, risk, and execution intersect at scale—where decisions move at machine speed and accountability still rests with humans.
+          Most advisory firms understand AI conceptually. Most technologists understand it technically. Few have redesigned systems where authority, risk, and execution intersect at scale, where decisions move at machine speed and accountability still rests with humans.
         </p>
         <p>
           We draw from a deep network of experts in organizational transformation and assemble engagement teams based on client needs, bringing the specific combination of operational, technical, and strategic expertise required for each transformation.
