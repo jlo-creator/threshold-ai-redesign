@@ -21,7 +21,7 @@ const Founder = () => (
 
         <div className="space-y-6 text-primary-foreground/80 text-[17px] md:text-lg leading-[1.7] font-sans max-w-content">
           <p>
-            <strong className="text-primary-foreground">Dr. Joanne Lo</strong> founded Threshold Group after serving as the first Command Technology Officer of U.S. Special Operations Command Pacific, an SES/Admiral-equivalent position responsible for modernizing technology across the Indo-Pacific theater.
+            <strong className="text-primary-foreground">Dr. Joanne Lo</strong> founded Threshold Group after serving as the first Command Technology Officer of U.S. Special Operations Command Pacific, a senior executive role responsible for modernizing technology across the Indo-Pacific theater.
           </p>
           <p>
             She was recruited into that role as a Highly Qualified Expert, not as a traditional government technologist, but as someone who had spent a decade building and deploying large-scale AI systems across education, creative platforms, autonomous systems, and human-AI collaboration.
