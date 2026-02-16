@@ -46,7 +46,7 @@ const Contact = () => {
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 max-w-[560px]">
           <div>
-            <label htmlFor="name" className="block text-sm font-sans font-medium text-foreground mb-1.5">
+            <label htmlFor="name" className="block text-sm font-sans font-medium mb-1.5 text-muted">
               Name <span className="text-destructive">*</span>
             </label>
             <input
@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-sans font-medium text-foreground mb-1.5">
+            <label htmlFor="email" className="block text-sm font-sans font-medium mb-1.5 text-muted">
               Email <span className="text-destructive">*</span>
             </label>
             <input
@@ -74,7 +74,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor="company" className="block text-sm font-sans font-medium text-foreground mb-1.5">
+            <label htmlFor="company" className="block text-sm font-sans font-medium mb-1.5 text-muted">
               Company
             </label>
             <input
@@ -88,7 +88,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-sans font-medium text-foreground mb-1.5">
+            <label htmlFor="message" className="block text-sm font-sans font-medium mb-1.5 text-muted">
               Message <span className="text-destructive">*</span>
             </label>
             <textarea
