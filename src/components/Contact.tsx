@@ -41,7 +41,7 @@ const Contact = () => {
         <SectionDivider />
 
         <p className="text-[17px] md:text-lg leading-[1.7] font-sans mb-10 text-muted">
-          If you're redesigning your organization for what AI makes possible and understand the opportunity is larger than incremental adoption, reach out with a brief note describing where you are and where you need to be.
+          If you are ready to redesign your organization around what AI makes possible, not just adopt it, reach out with a brief note describing where you are and where you need to go.
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 max-w-[560px]">
