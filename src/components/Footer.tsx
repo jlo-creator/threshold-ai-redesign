@@ -9,18 +9,16 @@ const Footer = () =>
 
       <div className="flex items-center justify-center gap-4 text-sm font-sans">
         <a
-        href="mailto:contact@thresholdgroup.com"
-        className="text-[#1F2937]/70 hover:text-[#1F2937]">
-        contact@thresholdgroup.ai
-
-      </a>
+          href="mailto:contact@thresholdgroup.ai"
+          className="text-[#1F2937]/70 hover:text-[#1F2937]">
+          contact@thresholdgroup.ai
+        </a>
         <span className="text-[#C5A74E]/30">|</span>
         <a
-        href="https://linkedin.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-[#1F2937]/70 hover:text-[#1F2937]">
-
+          href="https://www.linkedin.com/company/thresholdgrp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#1F2937]/70 hover:text-[#1F2937]">
           LinkedIn
         </a>
       </div>
