@@ -29,7 +29,7 @@ const Contact = () => {
     const body = encodeURIComponent(
       `Name: ${data.name}\nEmail: ${data.email}${data.company ? `\nCompany: ${data.company}` : ""}\n\n${data.message}`
     );
-    window.location.href = `mailto:contact@thresholdgroup.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@thresholdgroup.ai?subject=${subject}&body=${body}`;
     toast({ title: "Opening your email client…", description: "Your message details have been pre-filled." });
     reset();
   };
