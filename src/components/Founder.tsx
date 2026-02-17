@@ -18,12 +18,12 @@ const Founder = () => (
             className="w-48 h-48 md:w-56 md:h-56 rounded-sm object-cover object-top"
             loading="lazy"
           />
-          <div className="flex gap-4 mt-3">
-            <a href="mailto:jlo@thresholdgroup.ai" className="text-primary-foreground/70 hover:text-primary-foreground transition-opacity" aria-label="Email Dr. Joanne Lo">
-              <Mail size={18} />
+          <div className="flex justify-center gap-4 mt-5">
+            <a href="mailto:jlo@thresholdgroup.ai" className="text-primary-foreground hover:opacity-80 transition-opacity" aria-label="Email Dr. Joanne Lo">
+              <Mail size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/joanneclo/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-primary-foreground transition-opacity" aria-label="LinkedIn profile">
-              <Linkedin size={18} />
+            <a href="https://www.linkedin.com/in/joanneclo/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:opacity-80 transition-opacity" aria-label="LinkedIn profile">
+              <Linkedin size={20} />
             </a>
           </div>
         </div>
